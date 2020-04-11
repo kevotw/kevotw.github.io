@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/87cf6bc143.js" crossorigin="anonymous"></script>
@@ -19,12 +20,14 @@
 <body>
     <!-- Navbar-->
     <section class="top_nav">
-        <nav class="navbar navbar-expand-sm navbar-light">
-            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
-                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <a class="navbar-brand" href="index.html"><img src="img/logo2.png" alt="" class="img-fluid"></a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                    data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
             <div class="collapse navbar-collapse justify-content-center my-lg-3 font-weight-bold h3 pt-1"
                 id="collapsibleNavId">
                 <ul class="navbar-nav">
@@ -48,24 +51,9 @@
         </nav>
     </section>
 
-    <!-- Logo pic -->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <img class="img-fluid mx-auto d-block" alt="" src="img/logo.gif">
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Contact info -->
-    <section class="contact_info">
-        <div class="container text-center">
-            <p>70268 臺南市新興路533巷33弄16號</p>
-            <p>No.16, Alley 33, Lane 533, Hsin – Hsing Road, Tainan, Taiwan, R.O.C.</p>
-            <p><i class="fas fa-phone-square-alt"> TEL</i> (06) 261-9821 <i class="fas fa-fax"> FAX</i> (06) 261-1528 <i
-                    class="fas fa-envelope-square"></i> atsuntec@gmail.com</p>
-            <p>業務連絡人 : 陳南宏</p>
+    <section class="page_title">
+        <div class="container text-center py-3 border-top border-bottom border-dark">
+            <h1 class="animated fadeInUp">光纖技術及工程應用</h1>
         </div>
     </section>
 
@@ -74,7 +62,7 @@
     <!-- Details -->
 
     <section class="nav_drop_down">
-        <div class="container border-top border-bottom border-dark">
+        <div class="container border-bottom border-dark">
 
             <div class="dropdown show py-5 row justify-content-center">
                 <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
@@ -295,11 +283,28 @@
 
 
     <!-- Footer -->
+
     <footer class="footer">
-        <div class="text-center py-3">
-            <h2 class="py-3">宏翔科技有限公司</h2>
-            <div class="mx-auto heading-line"></div>
+        <div class="container">
+            <div class="row justify-content-md-center py-3">
+                <div class="media">
+                    <img src="img/logo2.png" alt="" class="float-left mr-3">
+                    <h3 class="my-auto">宏翔科技有限公司</h3>
+                </div>
+            </div>
         </div>
+
+        <!-- Contact info -->
+        <section class="contact_info">
+            <div class="container text-center">
+                <p>70268 臺南市新興路533巷33弄16號</p>
+                <p>No.16, Alley 33, Lane 533, Hsin – Hsing Road, Tainan, Taiwan, R.O.C.</p>
+                <p><i class="fas fa-phone-square-alt"> TEL</i> (06) 261-9821 <i class="fas fa-fax"> FAX</i> (06)
+                    261-1528 <i class="fas fa-envelope-square"></i> atsuntec@gmail.com</p>
+                <p>業務連絡人 : 陳南宏</p>
+            </div>
+        </section>
+
         <div class="row mb-3">
             <div class="col-lg-8 offset-lg-2 text-center">
                 <ul class="nav justify-content-center">
