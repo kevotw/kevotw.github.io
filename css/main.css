@@ -111,6 +111,7 @@ body {
 		width: 57%;
 		margin: 5px 1.5% !important;
 	}
+	html { font-size: 0.9rem; }
 }
 
 @media (min-width: 768px) {
