@@ -103,8 +103,21 @@ body {
 }
 
 @media (max-width: 575.98px) {
-	html { font-size: 0.8rem; }
+
+    html {
+        font-size: 0.8rem;
+    }
+
+    .carousel-caption h3 {
+        font-size:13px;
+    }
+
+    .carousel-caption p {
+        font-size:10px;
+    }
+
 }
+
 
 @media (min-width: 576px) {
 	.product_img .list-group-item {
