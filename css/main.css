@@ -102,6 +102,10 @@ body {
     background-color: #d3f3fd;
 }
 
+@media (max-width: 575.98px) {
+	html { font-size: 0.8rem; }
+}
+
 @media (min-width: 576px) {
 	.product_img .list-group-item {
 		width: 57%;
